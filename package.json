@@ -2,7 +2,7 @@
   "name": "music-bot",
   "main": "index.js",
   "author": "ZerioDev",
-  "engine": {
+  "engines": {
     "node": "16.x"
   },
   "version": "5.0.0",
