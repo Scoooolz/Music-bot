@@ -1,7 +1,7 @@
 const fs = require('fs');
 const discord = require('discord.js');
 
-const client = new discord.Client({ disableMentions: 'everyone', intents: ["GUILDS", "GUILD_MESSAGES"] });
+const client = new discord.Client({ disableMentions: 'everyone', intents: ["GUILDS", "GUILD_MESSAGES", "GUILD_VOICE_STATES"] });
 
 const { Player } = require('discord-player');
 
