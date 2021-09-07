@@ -8,9 +8,12 @@ module.exports = {
     },
 
     discord: {
-        token: 'TOKEN',
-        prefix: 'PREFIX',
-        activity: 'ACTIVITY',
+        token: process.env.TOKEN,
+        prefix: process.env.PREFIX,
+        activity: process.env.STATUS_NAME,
+        activitytype: process.env.STATUS_TYPE,
+        activitytypeurl: process.env.STATUS_TYPE_URL,
+        profiletype: process.env.PROFILE_TYPE
     },
 
     filters: ['8D', 'gate', 'haas', 'phaser', 'treble', 'tremolo', 'vibrato', 'reverse', 'karaoke', 'flanger', 'mcompand', 'pulsator', 'subboost', 'bassboost', 'vaporwave', 'nightcore', 'normalizer', 'surrounding'],
